@@ -1,4 +1,4 @@
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/6f65322c-8caa-43c9-938b-82a312200dc4" /># VB Tecnologias
+VB Tecnologias
 
 Bem-vindo ao repositório oficial da **VB Tecnologias**.
 
