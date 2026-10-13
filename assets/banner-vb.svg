@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">VB Tecnologias - Soluções Web &amp; Suporte</title>
+  <desc id="desc">Banner tecnológico animado em laranja e preto da VB Tecnologias.</desc>
+  <defs>
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.22; transform: scale(1); }
+        50% { opacity: 0.48; transform: scale(1.08); }
+      }
+      @keyframes dashFlow {
+        from { stroke-dashoffset: 400; }
+        to { stroke-dashoffset: 0; }
+      }
+      .glow-layer {
+        animation: pulseGlow 4s ease-in-out infinite alternate;
+        transform-origin: center;
+      }
+      .circuit-line {
+        stroke-dasharray: 200;
+        animation: dashFlow 5s linear infinite;
+      }
+    </style>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070a0f"/>
+      <stop offset=".55" stop-color="#0d131b"/>
+      <stop offset="1" stop-color="#140b06"/>
+    </linearGradient>
+
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffbd36"/>
+      <stop offset=".55" stop-color="#ff7a00"/>
+      <stop offset="1" stop-color="#ff4d00"/>
+    </linearGradient>
+
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ff7900" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#ff7900" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#ff7a00" opacity=".35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+
+  <ellipse class="glow-layer" cx="1050" cy="60" rx="320" ry="190" fill="url(#glow)"/>
+  <ellipse class="glow-layer" cx="120" cy="310" rx="300" ry="190" fill="url(#glow)"/>
+
+  <path d="M0 0H260L420 160H350L190 0H130L290 160H240L80 0Z" fill="url(#orange)" opacity=".16"/>
+  <path d="M1200 0H1020L880 140H940L1080 0H1135L995 140H1045Z" fill="url(#orange)" opacity=".20"/>
+  <path d="M0 250L120 340H0Z" fill="url(#orange)" opacity=".75"/>
+  <path d="M1200 250L1080 340H1200Z" fill="url(#orange)" opacity=".75"/>
+
+  <rect x="25" y="25" width="1150" height="290" rx="18" fill="none" stroke="#ff8a00" stroke-opacity=".55"/>
+  <rect x="38" y="38" width="160" height="260" fill="url(#dots)" opacity=".6"/>
+  <rect x="1000" y="38" width="160" height="260" fill="url(#dots)" opacity=".6"/>
+
+  <g fill="none" stroke="url(#orange)" stroke-width="2.5" opacity=".85">
+    <path class="circuit-line" d="M40 88H115L145 118H185"/>
+    <circle cx="40" cy="88" r="4.5" fill="#ff8a00"/>
+
+    <path class="circuit-line" d="M1160 245H1090L1060 215H1015"/>
+    <circle cx="1160" cy="245" r="4.5" fill="#ff8a00"/>
+
+    <path class="circuit-line" d="M1035 54h82l26 26h24"/>
+    <circle cx="1167" cy="80" r="4.5" fill="#ff8a00"/>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="78" fill="#c8d2df" font-size="14" font-weight="600" letter-spacing="6">DESENVOLVIMENTO • INFRAESTRUTURA • PERFORMANCE</text>
+    <text x="600" y="166" fill="#f8fafc" font-size="74" font-weight="900" letter-spacing="3">VB TECNOLOGIAS</text>
+    <rect x="400" y="188" width="400" height="3" rx="2" fill="url(#orange)"/>
+    <text x="600" y="228" fill="#ffd15c" font-size="26" font-weight="700" letter-spacing="2">SOLUÇÕES WEB &amp; SUPORTE</text>
+    <text x="600" y="272" fill="#d4dbe5" font-size="16" letter-spacing="1.5">ALTA PERFORMANCE DO CÓDIGO AO HARDWARE</text>
+  </g>
+</svg>
