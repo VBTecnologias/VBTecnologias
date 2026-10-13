@@ -114,7 +114,7 @@ Tem uma ideia, precisa de uma solução web ou quer melhorar o desempenho dos se
 
 <div align="center">
 
-<a href="https://instagram.com/vbtecnologias"><img src="https://img.shields.io/badge/Instagram-@vbtecnologias-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram VB Tecnologias" /></a>
+<a href="https://instagram.com/vbtecnologias"><img src="https://img.shields.io/badge/Instagram-@vbtecnologiass-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram VB Tecnologias" /></a>
 
 <a href="mailto:vbtecnologiass@gmail.com"><img src="https://img.shields.io/badge/E--mail-vbtecnologiass%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail VB Tecnologias" /></a>
 
